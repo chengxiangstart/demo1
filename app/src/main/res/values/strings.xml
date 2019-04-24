@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Demo1</string>
+    <string name="shebei">\u003C设备</string>
+    <string name="add">\u003C添加设备</string>
+    <string name="xq">\u003C设备详情</string>
+    <string name="xulieid">序列号：<a href='www.baidu.com'>xxxxxxxxxxx</a></string>
+    <string name="yy"><a href='www.baidu.com'>yyyyyyyyyyy</a>：192.168.1.10</string>
+    <string name="xx"><a href='www.baidu.com'>xxxxxxxxxxx</a>：192.168.1.11</string>
+</resources>

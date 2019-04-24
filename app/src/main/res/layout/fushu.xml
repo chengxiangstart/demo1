@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#EAEAEA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#cccccc"
+        android:layout_weight="0">
+
+        <Button
+            android:id="@+id/xq"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_weight="20"
+            android:clickable="true"
+            android:gravity="left"
+            android:text="@string/xq"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:background="#cccccc"/>
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="219dp"
+            android:layout_height="49dp"
+            android:layout_centerVertical="true"
+            android:layout_weight="20"
+            android:gravity="left"
+            android:text="附属设备"
+            android:textColor="#fff"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="序号：1"
+         />
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="left"
+        android:text="设备序列号：" />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="设备名称："
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="接口类型："
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="控制插件："
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="序号：2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="left"
+            android:text="设备序列号：" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="设备名称："
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="接口类型："
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="控制插件："
+            />
+        </LinearLayout>
+
+</LinearLayout>

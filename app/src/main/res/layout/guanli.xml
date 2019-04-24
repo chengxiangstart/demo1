@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#EAEAEA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#cccccc"
+        android:layout_weight="0">
+
+        <Button
+            android:id="@+id/xq"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_weight="20"
+            android:clickable="true"
+            android:gravity="left"
+            android:text="@string/xq"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:background="#cccccc"/>
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="219dp"
+            android:layout_height="49dp"
+            android:layout_centerVertical="true"
+            android:layout_weight="20"
+            android:gravity="left"
+            android:text="插件管理"
+            android:textColor="#fff"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="插件文件："
+         />
+    <TextView
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="插件版本："
+         />
+
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="left"
+        android:text="下载日期：" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="left"
+        android:text="使用设备类型：" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="left"
+        android:text="（消息显示）" />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+
+        android:text="删除插件"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.961" />
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+
+        android:text="查询更新"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.961" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+
+        android:text="更新插件"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.961" />
+
+</LinearLayout>
